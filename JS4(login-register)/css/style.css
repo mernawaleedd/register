@@ -1,0 +1,48 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background-color: #212529;
+    font-family: "Pacifico", cursive;
+}
+a{
+  text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1{
+    color: #17a2b8;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #212539;
+    padding: 20px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+   width: 600px;
+}
+.form-control{
+    background-color: #212539;
+    &::placeholder{
+        color: #ddd;
+        font-size: 12px;
+    }
+}
+.form a{
+    padding: 0 5px;
+    color: #fff;
+}
+
